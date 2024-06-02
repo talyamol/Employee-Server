@@ -52,7 +52,9 @@ env:
   PROJECT_ID: cogent-chess-424706-m7 # TODO: update Google Cloud project id
   GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
   SERVICE: employee-server # TODO: update Cloud Run service name
+  ART_REG: employee
   REGION: us-central1 # TODO: update Cloud Run service region
+  IMAGE: employeeServer
 
 jobs:
   deploy:
